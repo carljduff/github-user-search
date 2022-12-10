@@ -49,3 +49,84 @@
 input:focus {
     outline: none;
 }
+
+.git-image {
+    width: 117px;
+    height: 117px;
+    top: 359px;
+    left: 403px;
+    border-radius: 50%;
+    float: left;
+  
+}
+
+.git-container {
+    width: 730px;
+    height: 419px;
+    border-radius: 15px;
+    background-color: #1E2A47;
+    color: white;
+}
+
+.username {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.date {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.atuser {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0079FF;
+    text-align: center;
+    margin-right: 36px;
+}
+
+.bio {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+    text-align: center;
+    margin-left: 142px;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    margin-left: 170px;
+    background-color: #141D2F;
+    width: 480px;
+    height: 85px;
+    border-radius: 15px;
+   
+}
+
+table {
+    width: 480px;
+    height: 85px;
+    text-align: center;
+}
+
+
+
+

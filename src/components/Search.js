@@ -10,10 +10,8 @@ const Search = () => {
     return(
         <div className="search-container">
             <img src={searchIcon} alt="search icon"/>
-                    <input className="search-input" placeholder="Search GitHub username..."/>
-               
-                    <Button className="search-btn">Search</Button>
-           
+            <input className="search-input" placeholder="Search GitHub username..."/>
+            <Button className="search-btn">Search</Button>
         </div>
     )
 }
