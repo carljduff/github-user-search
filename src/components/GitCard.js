@@ -27,11 +27,8 @@ const GitCard = () => {
 
             </Row>
 
-           
-           
-
             <div className="section2">
-               
+               <div>
                     <table>
                     <tr>
                         <th>Repos</th>
@@ -44,10 +41,34 @@ const GitCard = () => {
                         <td>14</td>
                     </tr>
                     </table>
-              
-            
+               </div>
             </div>
 
+            <Row className="icon-row row-one">
+                <Col>
+                <img className="icon" src={location} alt="location icon"/>
+                <p className="location">Location</p>
+                </Col>
+
+                <Col>
+                <img className="icon" src={twitter} alt="twitter icon"/>
+                <p className="twitter">Twitter</p>
+                </Col>
+            </Row>
+
+            <Row className="icon-row">
+                <Col>
+                <img className="icon" src={link} alt="link icon"/>
+                <p className="link">https://github.io/</p>
+                </Col>
+
+                <Col>
+                <img className="icon" src={company} alt="building icon"/>
+                <p className="company">company</p>
+                </Col>
+            </Row>
+
+              
 
         </Container>
     )
